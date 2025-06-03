@@ -19,6 +19,16 @@ do {
 }
 while(i<10)
 
+// while statement
+a = 0
+b = 6 
+while(a<b){
+    a += 2
+    b++
+    console.log("a is still bigger than b by :- ", b-a)
+}
+
+
 // Continue Statement 
 for (x=0;x<25;x++){
     if(x==16){
