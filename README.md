@@ -20,4 +20,6 @@ Total learning was like :-
 2. Calling the function
 3. Function Parameters
 4. Arrow function
+5. BITWISE operator
+6. Ternary operator
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
