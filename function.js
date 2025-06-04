@@ -28,3 +28,14 @@ let flow = (s) => {
     }
 }
 console.log(flow(12))
+
+// Bitwise Operators (In all these operator logic gate is used ...)
+console.log(15 & 9) // AND operator  ans:- 9
+console.log(15 | 9) // OR operator   ans:- 15
+console.log(15 ^ 9) // XOR operator  ans:- 6
+console.log(~10)  // NOT operator   ans:- -11
+console.log(~5)   // ans:- -6
+
+// Ternary Operator
+age = 15
+let sign = age>18 ? console.log("You are an adult") : console.log("You are an minor")
