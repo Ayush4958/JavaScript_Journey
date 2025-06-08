@@ -23,3 +23,11 @@ Total learning was like :-
 5. BITWISE operator
 6. Ternary operator
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# String, Number, Date function & Regular expression
+In Lecture3.js, we ;earn about string, no. & date function as there are numerous string and number function, I didn't include in documentation you can learn it directly from mozilla documentation 
+As we also meantion regular expression as it's a very vast topic so I will suggest you learn it from regexr.com , Today learning :-
+1. String function
+2. Number function
+3. Date function and built proper digital clock
+4. Regular Expression from regexr.com
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
