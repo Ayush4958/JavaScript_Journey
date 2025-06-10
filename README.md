@@ -40,3 +40,13 @@ and also learn their lot of built in function but did not mention in the documen
 4. For...each loop
 5. Creates multi dimensional array using for...in loop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Keyed Collection
+In Lecture4.js, we learn about the Map and its strucute and its basic built in fucntion and Its work same as object and just have minor differences, WeakMap is same as map with just weak references as
+it takes key as object and we also learn Set, it work same as array but it eleminate the duplicate values, WeakSet is same as Set but it take values as object a;lso with weak references, topics covered :-
+1. Map and its build-in function
+2. Differnce between Map & Object
+3. WeakMap and its features
+4. Set and its built in function
+5. Differences between Set & Array
+6. WeakSet and its features
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
