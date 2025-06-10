@@ -24,10 +24,19 @@ Total learning was like :-
 6. Ternary operator
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # String, Number, Date function & Regular expression
-In Lecture3.js, we ;earn about string, no. & date function as there are numerous string and number function, I didn't include in documentation you can learn it directly from mozilla documentation 
+In Lecture3.js, we learn about string, no. & date function as there are numerous string and number function, I didn't include in documentation you can learn it directly from mozilla documentation 
 As we also meantion regular expression as it's a very vast topic so I will suggest you learn it from regexr.com , Today learning :-
 1. String function
 2. Number function
 3. Date function and built proper digital clock
 4. Regular Expression from regexr.com
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Indexed Collections
+In Lecture4.js, we learn about the arrays, maps & object structure and types and different way to declare them and understand their fucntioning and get to know how to modify them 
+and also learn their lot of built in function but did not mention in the document, so you have to learn it from mozilla documentation, Today's learning was like :-
+1. Array & Object building
+2. Creation of sparse arrays
+3. Array built-in function
+4. For...each loop
+5. Creates multi dimensional array using for...in loop
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
