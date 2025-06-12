@@ -61,3 +61,5 @@ arr=[1,2,3,4,5]
 for (let val of arr){
     console.log(val)
 }
+
+// For more understanding of loops make code and practice them
