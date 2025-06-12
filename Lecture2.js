@@ -39,3 +39,5 @@ console.log(~5)   // ans:- -6
 // Ternary Operator
 age = 15
 let sign = age>18 ? console.log("You are an adult") : console.log("You are an minor")
+
+// Try more different by yourselves on nested function or nested loop & functions
