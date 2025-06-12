@@ -50,3 +50,31 @@ set.has(15); // true
 set.delete("master")
 console.log(set.size) // 2
 console.log(set) // it will ignore the duplicate value and will only return all unique values no repetietion possible
+
+//  creating new object with function
+
+function person(name , age , gender){
+    this.name = name
+    this.age = age
+    this.gender = gender
+}
+console.log(new person("Robert" , 51 , "Male"))
+
+// Deleting the element from object
+console.log(delete person.name) // true
+
+// set & get function 
+const myObj = {
+  x: 50,
+  get y() { // get function doesn't need a parameter
+    return this.x + 1;
+  },
+  set z(a) { // set function needs a one parameter
+    this.x = a / 2;
+  },
+};
+
+console.log(myObj.x); // 50
+console.log(myObj.y); // 51
+myObj.z = 40; // Calls the set c(x) method
+console.log(myObj.x); // 20
