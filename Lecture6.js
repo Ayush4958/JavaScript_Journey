@@ -1,1 +1,8 @@
-// Classes in js
+// classes in js
+// Declaration of class
+
+class myclass{
+    constructor(){
+        
+    }
+}
