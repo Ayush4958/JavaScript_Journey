@@ -49,4 +49,6 @@ it takes key as object and we also learn Set, it work same as array but it elemi
 4. Set and its built in function
 5. Differences between Set & Array
 6. WeakSet and its features
+7. Deleting the element from object
+8. set & get function
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
