@@ -52,3 +52,12 @@ it takes key as object and we also learn Set, it work same as array but it elemi
 7. Deleting the element from object
 8. set & get function
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Classes in JS
+In Lecture4.js, we learn about the classes in js , how to declare and what is constructor and how constructor works , what is instance method and how they are created and also see their alternative 
+that they also can be write inside the constructor of a classes and also learn about their extends & inheritance, topics covered are :-
+1. Declaration of classes
+2. Constructor
+3. Instance methods
+4. Extend & inheritance
+5. set & get
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
