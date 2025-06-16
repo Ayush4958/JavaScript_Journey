@@ -41,8 +41,8 @@ and also learn their lot of built in function but did not mention in the documen
 5. Creates multi dimensional array using for...in loop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Keyed Collection
-In Lecture4.js, we learn about the Map and its strucute and its basic built in fucntion and Its work same as object and just have minor differences, WeakMap is same as map with just weak references as
-it takes key as object and we also learn Set, it work same as array but it eleminate the duplicate values, WeakSet is same as Set but it take values as object a;lso with weak references, topics covered :-
+In Lecture5.js, we learn about the Map and its strucute and its basic built in fucntion and Its work same as object and just have minor differences, WeakMap is same as map with just weak references 
+as it takes key as object and we also learn Set, it work same as array but it eleminate the duplicate values, WeakSet is same as Set but it take values as object a;lso with weak references, topics covered :-
 1. Map and its build-in function
 2. Differnce between Map & Object
 3. WeakMap and its features
@@ -53,7 +53,7 @@ it takes key as object and we also learn Set, it work same as array but it elemi
 8. set & get function
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Classes in JS
-In Lecture4.js, we learn about the classes in js , how to declare and what is constructor and how constructor works , what is instance method and how they are created and also see their alternative 
+In Lecture6.js, we learn about the classes in js , how to declare and what is constructor and how constructor works , what is instance method and how they are created and also see their alternative 
 that they also can be write inside the constructor of a classes and also learn about their extends & inheritance, topics covered are :-
 1. Declaration of classes
 2. Constructor
@@ -61,3 +61,11 @@ that they also can be write inside the constructor of a classes and also learn a
 4. Extend & inheritance
 5. set & get
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+# Promises in JS
+In Lecture6.js, we learn about the promises in js , why we need promises to perform task and also know the callback hell and learn the declaration and structure of promises in js and learn about the 
+promises chaning & error handling (using then, catch, finally) and we learn some of promises function like [Promise.any , Promise.race, Promise.allsettled] , topics covered :-
+1. Promise declaration
+2. Error handling
+3. Promise function
+4. Promise Chaining
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
