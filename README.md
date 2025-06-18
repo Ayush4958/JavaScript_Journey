@@ -60,7 +60,7 @@ that they also can be write inside the constructor of a classes and also learn a
 3. Instance methods
 4. Extend & inheritance
 5. set & get
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 # Promises in JS
 In Lecture7.js, we learn about the promises in js , why we need promises to perform task and also know the callback hell and learn the declaration and structure of promises in js and learn about the 
 promises chaning & error handling (using then, catch, finally) and we learn some of promises function like [Promise.any , Promise.race, Promise.allsettled] , topics covered :-
@@ -68,7 +68,7 @@ promises chaning & error handling (using then, catch, finally) and we learn some
 2. Error handling
 3. Promise function
 4. Promise Chaining
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Generator function in JS
 In Lecture8.js, we learn about the generator function in js , why they are used and how they are helpfull because when we build iteration function from scratch we cannot use for build in fucntion 
 so the generator function overcome this problem and we can use for function in our scratch iteration function , topics learned todays :-
@@ -76,7 +76,7 @@ so the generator function overcome this problem and we can use for function in o
 2. Generator function
 3. Next() with done & values
 4. yield keyword
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Prototype in js
 In Lecture9.js, we learn about the Prototype  in js [topic going on ]... topic covered till now :-
 1. Shadowing Prototype
