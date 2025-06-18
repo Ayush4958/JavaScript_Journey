@@ -77,3 +77,9 @@ so the generator function overcome this problem and we can use for function in o
 3. Next() with done & values
 4. yield keyword
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Prototype in js
+In Lecture9.js, we learn about the Prototype  in js [topic going on ]... topic covered till now :-
+1. Shadowing Prototype
+2. Prototype chain
+3. Setting Prototype
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
