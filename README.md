@@ -78,8 +78,11 @@ so the generator function overcome this problem and we can use for function in o
 4. yield keyword
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Prototype in js
-In Lecture9.js, we learn about the Prototype  in js [topic going on ]... topic covered till now :-
+In Lecture9.js, we learn about the Prototype  in js , overshadowing the precious or built-in function by creating the other fucntion with the same name and also understand the chaining of prototype and 
+also understand to set the prototype and does same thing with the Classes in js and also get to know difference between prototype chain and inheritance, topics covered :-
 1. Shadowing Prototype
 2. Prototype chain
 3. Setting Prototype
+4. Class inheritance
+5. pratcice of classes question from MDN documentation
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
