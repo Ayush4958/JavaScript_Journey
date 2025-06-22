@@ -92,4 +92,6 @@ so it will take time under this time no other work can be executed so we can use
 1. Problem in Synchronous programming
 2. Overcome of problem :- event listner/ asynchronous programming
 3. Fetching API
+4. Promise all & any function
+5. async & await
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
