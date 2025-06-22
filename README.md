@@ -86,3 +86,10 @@ also understand to set the prototype and does same thing with the Classes in js 
 4. Class inheritance
 5. pratcice of classes question from MDN documentation
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Asynchronous function in js 
+In Lecture10.js, we learn about the Asynchronous function in js, we need these type of function because long synchronous function can stop the working of other threads, So if a synchronous is long
+so it will take time under this time no other work can be executed so we can use event listner / Asynchronous function to over come this problem, topics covered till now :-
+1. Problem in Synchronous programming
+2. Overcome of problem :- event listner/ asynchronous programming
+3. using fetch api
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
