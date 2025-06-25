@@ -95,3 +95,7 @@ so it will take time under this time no other work can be executed so we can use
 4. Promise all & any function
 5. async & await
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# CANVAS IN JS
+In this canvas class, we going to learn  how to use canvas element in HTML and also with js , topics covered till now :-
+1. Shape creation
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
