@@ -98,4 +98,6 @@ so it will take time under this time no other work can be executed so we can use
 # CANVAS IN JS
 In this canvas class, we going to learn  how to use canvas element in HTML and also with js , topics covered till now :-
 1. Shape creation
+2. Moving Object animation
+3. Collision Detection
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
