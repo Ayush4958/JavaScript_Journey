@@ -100,4 +100,5 @@ In this canvas class, we going to learn  how to use canvas element in HTML and a
 1. Shape creation
 2. Moving Object animation
 3. Collision Detection
+4. Element Interaction
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
