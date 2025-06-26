@@ -1,0 +1,11 @@
+/* Remove default spacing */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* hides scrollbars */
+}
+
+/* Optional: Make canvas full-screen */
+canvas {
+    display: block;
+}
