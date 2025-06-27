@@ -24,9 +24,6 @@ canvas.height = win_height;
 // ctx.closePath()
 
 
-let hit_counter = 0;
-
-
 class Circle {
     constructor(xpos, ypos, radius, color, text , speed) {
         this.xpos = xpos;
@@ -56,25 +53,19 @@ class Circle {
     }
 
     move(){
-        this.text = hit_counter
-        ctx.clearRect(0 , 0 , win_width , win_height)
         this.draw(ctx)
 
         if(this.xpos + this.radius >= win_width){
             this.dx =- this.dx
-            hit_counter++
         }
         if(this.ypos + this.radius >= win_height){
             this.dy =- this.dy
-            hit_counter++
         }
         if(this.xpos - this.radius < 0){
             this.dx =- this.dx
-            hit_counter++
         }
         if(this.ypos - this.radius < 0){
             this.dy =- this.dy
-            hit_counter++
         }
 
         this.xpos += this.dx
@@ -82,27 +73,47 @@ class Circle {
     }
 }
 
-
-// let ran_x = Math.floor(Math.random() * win_width);
-// let ran_y = Math.floor(Math.random() * win_height); 
-
-let mycircle = new Circle(100, 150, 50, 'red', hit_counter , 2);
-mycircle.draw()
-
-let updatecircle = function(){
-    requestAnimationFrame(updatecircle)
-    mycircle.move()
+let getdistance = function(xpos1 , ypos1 , xpos2 , ypos2){
+    var result =  Math.sqrt(Math.pow(xpos2-xpos1 , 2) + Math.pow(ypos2-ypos1 , 2))
+    return result
 }
 
+let allcircles = []
+
+function randomint(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+// Creating multiple balls 
+for(i=0; i<10; i++){
+    radius = 50
+    xrandom = randomint(radius,(win_width-radius))
+    yrandom = randomint(radius,(win_height-radius))
+    let mycircle = new Circle(xrandom, yrandom , radius , "red" , 'A' , 2)
+    allcircles.push(mycircle)
+    mycircle.draw()
+
+}
+
+
+let updatecircle = function(){
+    ctx.clearRect(0 , 0 , win_width , win_height)
+    requestAnimationFrame(updatecircle)
+    allcircles.forEach(e=>{
+        e.move()
+    })
+
+    // Element Interaction
+    // let mycircle2 = new Circle(800, 300, 200, 'red', 'B' , 0);
+    // mycircle2.draw()
+    // mycircle2.move()
+    // if (getdistance(mycircle1.xpos , mycircle1.ypos , mycircle2.xpos , mycircle2.ypos) < mycircle2.radius){
+    //     mycircle2.color = "white"
+    //     mycircle2.text = "I am B , A is inside"
+    // }
+    // else{
+    //     mycircle2.color = "red"
+    //     mycircle2.text = "I am B , A is outside"
+    // }
+}
 updatecircle()
-
-// for (let i = 0; i < 1; i++) {
-//     let ran_x = Math.floor(Math.random() * win_width);
-//     let ran_y = Math.floor(Math.random() * win_height); 
-//     let mycircle = new Circle(ran_x, ran_y, 50, 'red', circle_counter , 2);
-//     circles.push(mycircle);
-//     mycircle.draw(); // draw this specific circle
-//     circle_counter++;
-// }
-
-console.log(circles);
