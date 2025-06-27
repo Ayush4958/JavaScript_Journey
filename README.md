@@ -103,4 +103,5 @@ In this canvas class, we going to learn  how to use canvas element in HTML and a
 4. Element Interaction
 5. Object with Loops
 6. Img inside Canvas
+7. Object Interaction with eventListners
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
