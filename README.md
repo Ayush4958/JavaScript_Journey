@@ -105,3 +105,4 @@ In this canvas class, we going to learn  how to use canvas element in HTML and a
 6. Img inside Canvas
 7. Object Interaction with eventListners
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<i> <b> NOW I AM GOING TO START LEARNING REACT & FOLLOW ITS JOURNEY ON ANOTHER REPO....... </i> </b>
